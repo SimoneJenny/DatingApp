@@ -1,0 +1,30 @@
+﻿<Window x:Class="test.loginuser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test"
+        mc:Ignorable="d"
+        Title="loginuser" Height="450" Width="800"
+        ResizeMode="NoResize"
+        >
+    <Grid>
+        <Button Margin="24,39,620.6,338" Click="opdater">Opdater dine oplysninger</Button>
+        <Button Margin="24,121,620.6,256" Click="slet">Slet bruger/konto</Button>
+        <Button Margin="24,209,620.6,168" Click="soge">Søg på medlemmer</Button>
+        <Button Margin="24,297,620.6,80" Click="matches" RenderTransformOrigin="0.501,0.5">Se dine Matchs</Button>
+        <Label x:Name="txtUsername"  Content="{Binding username}" HorizontalAlignment="Left" Margin="251,39,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label x:Name="txtFullName" Content="{Binding fullName}" HorizontalAlignment="Left" Margin="251,82,0,0" VerticalAlignment="Top"/>
+        <RichTextBox x:Name="txtAboutMe" IsReadOnly="True" HorizontalAlignment="Left" Height="209" Margin="251,131,0,0" VerticalAlignment="Top" Width="217">
+        </RichTextBox>
+        <Image x:Name="imgAvatar" HorizontalAlignment="Left" Height="175" Width="175" Margin="473,10,0,0" VerticalAlignment="Top"/>
+        <!--<TextBlock HorizontalAlignment="Left" Margin="550,270,0,0" TextWrapping="Wrap"
+                   x:Name="testName"
+                   Text="{Binding username}" VerticalAlignment="Top"
+                   />-->
+        <Grid.Background>
+            <ImageBrush ImageSource="billede\frontpage.png" Stretch="UniformToFill">
+            </ImageBrush>
+        </Grid.Background>
+    </Grid>
+</Window>

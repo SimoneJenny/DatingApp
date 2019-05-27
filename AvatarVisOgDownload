@@ -1,0 +1,59 @@
+using Microsoft.Win32;
+using System;
+using System.IO;
+using System.Windows;
+using System.Windows.Media.Imaging;
+
+namespace ImageSourcingTest {
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void BtnChangeAvatar_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog dlg = new OpenFileDialog();
+            dlg.DefaultExt = ".png";
+            dlg.Filter = "JPEG Files (*.jpeg)|*.jpeg|PNG Files (*.png)|*.png|JPG Files (*.jpg)|*.jpg";
+            Nullable<bool> result = dlg.ShowDialog();
+
+            if (result == true) {
+                string filename = dlg.FileName;
+                ImgAvatar.Source = new BitmapImage(new Uri(filename));
+            }
+            // ImgAvatar.Source = new BitmapImage(new Uri(@"C:\Users\Tim The Fiend\Pictures\Random\1526132161879.png"));
+        }
+
+        private void BtnChangeTheChange_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtURL.Text.Trim() != "") {
+                try {
+                    ImgAvatar.Source = new BitmapImage(new Uri(txtURL.Text.Trim()));
+
+                }
+                catch (Exception) {
+                    MessageBox.Show("invalid file");
+                }
+            } else {
+            }
+
+        }
+
+        private void BtnSave_Click(object sender, RoutedEventArgs e)
+        {
+            // Dette er hvor den vil blive gemt henne, og hvad den vil hedde.
+            // hent data fra database og gør filenavn dynamisk.
+            string filePathForSave = @"Avatars\test.jpg";
+
+            // fungere også med andre filtyper end png
+            var encoder = new PngBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create((BitmapSource)ImgAvatar.Source));
+            using (FileStream fs = new FileStream(filePathForSave, FileMode.Create))
+                encoder.Save(fs);
+        }
+    }
+}

@@ -1,0 +1,162 @@
+C:\Users\tec\source\repos\wpf\test\bin\Debug\test.exe.config
+C:\Users\tec\source\repos\wpf\test\bin\Debug\test.exe
+C:\Users\tec\source\repos\wpf\test\bin\Debug\test.pdb
+C:\Users\tec\source\repos\wpf\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\tec\source\repos\wpf\test\obj\Debug\MainWindow.g.cs
+C:\Users\tec\source\repos\wpf\test\obj\Debug\App.g.cs
+C:\Users\tec\source\repos\wpf\test\obj\Debug\test_MarkupCompile.cache
+C:\Users\tec\source\repos\wpf\test\obj\Debug\test_MarkupCompile.lref
+C:\Users\tec\source\repos\wpf\test\obj\Debug\MainWindow.baml
+C:\Users\tec\source\repos\wpf\test\obj\Debug\test.g.resources
+C:\Users\tec\source\repos\wpf\test\obj\Debug\test.Properties.Resources.resources
+C:\Users\tec\source\repos\wpf\test\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\tec\source\repos\wpf\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\tec\source\repos\wpf\test\obj\Debug\test.exe
+C:\Users\tec\source\repos\wpf\test\obj\Debug\test.pdb
+D:\wpf\test\bin\Debug\test.exe.config
+D:\wpf\test\bin\Debug\test.exe
+D:\wpf\test\bin\Debug\test.pdb
+D:\wpf\test\obj\Debug\test.csprojAssemblyReference.cache
+D:\wpf\test\obj\Debug\MainWindow.g.cs
+D:\wpf\test\obj\Debug\App.g.cs
+D:\wpf\test\obj\Debug\test_MarkupCompile.cache
+D:\wpf\test\obj\Debug\test_MarkupCompile.lref
+D:\wpf\test\obj\Debug\MainWindow.baml
+D:\wpf\test\obj\Debug\test.g.resources
+D:\wpf\test\obj\Debug\test.Properties.Resources.resources
+D:\wpf\test\obj\Debug\test.csproj.GenerateResource.cache
+D:\wpf\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+D:\wpf\test\obj\Debug\test.exe
+D:\wpf\test\obj\Debug\test.pdb
+D:\wpf\test\obj\Debug\loginuser.g.cs
+D:\wpf\test\obj\Debug\Opdaterbruger.g.cs
+D:\wpf\test\obj\Debug\opretbruger.g.cs
+D:\wpf\test\obj\Debug\opretkonto.g.cs
+D:\wpf\test\obj\Debug\sletbruger.g.cs
+D:\wpf\test\obj\Debug\soge.g.cs
+D:\wpf\test\obj\Debug\loginuser.baml
+D:\wpf\test\obj\Debug\Opdaterbruger.baml
+D:\wpf\test\obj\Debug\opretbruger.baml
+D:\wpf\test\obj\Debug\opretkonto.baml
+D:\wpf\test\obj\Debug\sletbruger.baml
+D:\wpf\test\obj\Debug\soge.baml
+D:\wpf\test\obj\Debug\matches.g.cs
+D:\wpf\test\obj\Debug\matches.baml
+D:\wpf\test\obj\Debug\opretbrugerfirst.g.cs
+D:\wpf\test\obj\Debug\opretbrugerfirst.baml
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\loginuser.g.cs
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\MainWindow.g.cs
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\matches.g.cs
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\Opdaterbruger.g.cs
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\opretbruger.g.cs
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\opretbrugerfirst.g.cs
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\opretkonto.g.cs
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\sletbruger.g.cs
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\soge.g.cs
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\App.g.cs
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\test_MarkupCompile.cache
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\test_MarkupCompile.lref
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\test.exe
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\test.pdb
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\bin\Debug\test.exe.config
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\bin\Debug\test.exe
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\bin\Debug\test.pdb
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\loginuser.baml
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\MainWindow.baml
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\matches.baml
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\Opdaterbruger.baml
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\opretbruger.baml
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\opretbrugerfirst.baml
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\opretkonto.baml
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\sletbruger.baml
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\soge.baml
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\test.g.resources
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\test.Properties.Resources.resources
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\tec\source\repos\TestMedDataBinding\wpf\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\loginuser.g.cs
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\MainWindow.g.cs
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\matches.g.cs
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\Opdaterbruger.g.cs
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\opretbruger.g.cs
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\opretbrugerfirst.g.cs
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\opretkonto.g.cs
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\sletbruger.g.cs
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\soge.g.cs
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\App.g.cs
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\test_MarkupCompile.cache
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\test_MarkupCompile.lref
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\test.exe
+C:\Users\Tim The Fiend\Documents\GitHub\wpf\test\obj\Debug\test.pdb
+C:\Users\tec\Desktop\wpf\test\bin\Debug\test.exe.config
+C:\Users\tec\Desktop\wpf\test\bin\Debug\test.exe
+C:\Users\tec\Desktop\wpf\test\bin\Debug\test.pdb
+C:\Users\tec\Desktop\wpf\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\tec\Desktop\wpf\test\obj\Debug\loginuser.g.cs
+C:\Users\tec\Desktop\wpf\test\obj\Debug\MainWindow.g.cs
+C:\Users\tec\Desktop\wpf\test\obj\Debug\matches.g.cs
+C:\Users\tec\Desktop\wpf\test\obj\Debug\Opdaterbruger.g.cs
+C:\Users\tec\Desktop\wpf\test\obj\Debug\opretbruger.g.cs
+C:\Users\tec\Desktop\wpf\test\obj\Debug\opretbrugerfirst.g.cs
+C:\Users\tec\Desktop\wpf\test\obj\Debug\opretkonto.g.cs
+C:\Users\tec\Desktop\wpf\test\obj\Debug\sletbruger.g.cs
+C:\Users\tec\Desktop\wpf\test\obj\Debug\soge.g.cs
+C:\Users\tec\Desktop\wpf\test\obj\Debug\App.g.cs
+C:\Users\tec\Desktop\wpf\test\obj\Debug\test_MarkupCompile.cache
+C:\Users\tec\Desktop\wpf\test\obj\Debug\test_MarkupCompile.lref
+C:\Users\tec\Desktop\wpf\test\obj\Debug\loginuser.baml
+C:\Users\tec\Desktop\wpf\test\obj\Debug\MainWindow.baml
+C:\Users\tec\Desktop\wpf\test\obj\Debug\matches.baml
+C:\Users\tec\Desktop\wpf\test\obj\Debug\Opdaterbruger.baml
+C:\Users\tec\Desktop\wpf\test\obj\Debug\opretbruger.baml
+C:\Users\tec\Desktop\wpf\test\obj\Debug\opretbrugerfirst.baml
+C:\Users\tec\Desktop\wpf\test\obj\Debug\opretkonto.baml
+C:\Users\tec\Desktop\wpf\test\obj\Debug\sletbruger.baml
+C:\Users\tec\Desktop\wpf\test\obj\Debug\soge.baml
+C:\Users\tec\Desktop\wpf\test\obj\Debug\test.g.resources
+C:\Users\tec\Desktop\wpf\test\obj\Debug\test.Properties.Resources.resources
+C:\Users\tec\Desktop\wpf\test\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\tec\Desktop\wpf\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\tec\Desktop\wpf\test\obj\Debug\test.exe
+C:\Users\tec\Desktop\wpf\test\obj\Debug\test.pdb
+C:\Users\tec\Desktop\wpf\test\obj\Debug\ChatLog.g.cs
+C:\Users\tec\Desktop\wpf\test\obj\Debug\ChatLog.baml
+D:\wpf\test\obj\Debug\ChatLog.g.cs
+D:\wpf\test\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\wpf\test\obj\Debug\ChatLog.baml
+D:\wpfFINAL\test\bin\Debug\test.exe.config
+D:\wpfFINAL\test\bin\Debug\test.exe
+D:\wpfFINAL\test\bin\Debug\test.pdb
+D:\wpfFINAL\test\obj\Debug\ChatLog.g.cs
+D:\wpfFINAL\test\obj\Debug\loginuser.g.cs
+D:\wpfFINAL\test\obj\Debug\MainWindow.g.cs
+D:\wpfFINAL\test\obj\Debug\matches.g.cs
+D:\wpfFINAL\test\obj\Debug\Opdaterbruger.g.cs
+D:\wpfFINAL\test\obj\Debug\opretbruger.g.cs
+D:\wpfFINAL\test\obj\Debug\opretbrugerfirst.g.cs
+D:\wpfFINAL\test\obj\Debug\opretkonto.g.cs
+D:\wpfFINAL\test\obj\Debug\sletbruger.g.cs
+D:\wpfFINAL\test\obj\Debug\soge.g.cs
+D:\wpfFINAL\test\obj\Debug\App.g.cs
+D:\wpfFINAL\test\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\wpfFINAL\test\obj\Debug\test_MarkupCompile.cache
+D:\wpfFINAL\test\obj\Debug\test_MarkupCompile.lref
+D:\wpfFINAL\test\obj\Debug\ChatLog.baml
+D:\wpfFINAL\test\obj\Debug\loginuser.baml
+D:\wpfFINAL\test\obj\Debug\MainWindow.baml
+D:\wpfFINAL\test\obj\Debug\matches.baml
+D:\wpfFINAL\test\obj\Debug\Opdaterbruger.baml
+D:\wpfFINAL\test\obj\Debug\opretbruger.baml
+D:\wpfFINAL\test\obj\Debug\opretbrugerfirst.baml
+D:\wpfFINAL\test\obj\Debug\opretkonto.baml
+D:\wpfFINAL\test\obj\Debug\sletbruger.baml
+D:\wpfFINAL\test\obj\Debug\soge.baml
+D:\wpfFINAL\test\obj\Debug\test.g.resources
+D:\wpfFINAL\test\obj\Debug\test.Properties.Resources.resources
+D:\wpfFINAL\test\obj\Debug\test.csproj.GenerateResource.cache
+D:\wpfFINAL\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+D:\wpfFINAL\test\obj\Debug\test.exe
+D:\wpfFINAL\test\obj\Debug\test.pdb
+D:\wpfFINAL\test\obj\Debug\test.csprojAssemblyReference.cache

@@ -1,0 +1,68 @@
+-- !!!!! CHANGELOG 22-05 !!!!!
+--	## Ændret seekingSex til LookingFor
+
+-- !!! OPSÆTNING AF INITIAL DATABASE !!! -- 
+USE MASTER
+GO
+
+DROP DATABASE DatingDB
+GO
+
+CREATE DATABASE DatingDB
+GO
+
+USE DatingDB
+-- !!! /OPSÆTNING AF INITIAL DATABASE !!! -- 
+
+
+
+-- !!! OPSÆTNING AF TABLES !!! --
+CREATE TABLE userAccount(
+	userID INT IDENTITY(1,1) PRIMARY KEY,
+	username NVARCHAR(50) NOT NULL UNIQUE,
+	[password] NVARCHAR(50) NOT NULL,
+	email NVARCHAR(50) NOT NULL,
+	[deleted] BIT NULL
+)
+
+CREATE TABLE userProfile(
+	userProfileID INT IDENTITY(1,1) PRIMARY KEY,
+	sex CHAR,
+	fullName NVARCHAR(100),
+	age INT,
+	city NVARCHAR(75),
+	aboutMe NVARCHAR(140),
+	lookingFor NVARCHAR(140),
+	avatar NVARCHAR(200) DEFAULT 'INSERT LOCATION TO SAD COWBOY HERE',
+	userID INT FOREIGN KEY REFERENCES userAccount(userID)
+)
+
+CREATE TABLE userSearch(
+	searchID INT IDENTITY(1,1) PRIMARY KEY, -- ID for search Query
+	sex CHAR NULL,
+	interest NVARCHAR(140) NULL,
+	age INT NULL,
+	userID INT FOREIGN KEY REFERENCES userAccount(userID) -- The Searcher
+)
+
+CREATE TABLE directMessages(
+	messageID INT IDENTITY(1,1) PRIMARY KEY,
+	senderID INT FOREIGN KEY REFERENCES userProfile(userProfileID) NOT NULL,
+	receiverID INT FOREIGN KEY REFERENCES userProfile(userProfileID) NOT NULL,
+	messageText NVARCHAR(500),
+	isRead BIT DEFAULT 0 NOT NULL -- FALSE/TRUE INITIALLY FALSE
+)
+
+--ALTER TABLE directMessages
+--ADD CONSTRAINT PK_Message PRIMARY KEY (messageID, senderID, receiverID)
+
+CREATE TABLE match(
+	messageID INT IDENTITY(1,1) PRIMARY KEY,
+	senderID INT FOREIGN KEY REFERENCES userProfile(userProfileID),
+	receiverID INT FOREIGN KEY REFERENCES userProfile(userProfileID),
+	isMatch BIT DEFAULT 0 NOT NULL -- INITALLY ALWAYS NOT MATCH
+)
+
+select * from userAccount
+
+select * from userProfile

@@ -1,0 +1,67 @@
+﻿<Window x:Class="test.opretbrugerfirst"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test"
+        mc:Ignorable="d"
+        Title="opretbrugerfirst" Height="600" Width="800"
+        ResizeMode="NoResize"
+        >
+    <StackPanel Margin="10">
+        <Label Target="{Binding ElementName=txtid}" Height="30" Margin="0,0,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Name" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtnavn" Height="24" Margin="0,0,450.6,0"/>
+        <Label Target="{Binding ElementName=txtalder}" Height="27" Margin="0,0,694.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Alder"/>
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtalder" Height="23" Margin="0,0,670.6,0" />
+        <Label>vælg køn</Label>
+        <ComboBox x:Name="txtsex" Margin="0,0,670.6,0">
+            <ComboBoxItem>
+                k
+            </ComboBoxItem>
+            <ComboBoxItem>
+                M
+            </ComboBoxItem>
+            <ComboBoxItem>
+                I
+            </ComboBoxItem>
+        </ComboBox>
+        <Label Target="{Binding ElementName=txtby}" Height="30" Margin="0,0,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_By" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtby" Height="23" Margin="0,0,450.6,0"/>
+        <Label Target="{Binding ElementName=txtommig}" Height="30" Margin="0,0,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Om dig" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtommig" Height="23" Margin="0,0,9.6,0"/>
+        <Label Target="{Binding ElementName=txtinteresser}" Height="30" Margin="0,0,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Interesser" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtinter" Height="24" Margin="0,0,450.6,0"/>
+        <Label Target="{Binding ElementName=txtsoger}" Height="30" Margin="0,0,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Søger" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtsog" Height="23" Margin="0,0,450.6,0"/>
+        <Button Margin="43,0,658.6,0" Height="32" Content="Gem" Click="gembruger" RenderTransformOrigin="-0.241,0.426"/>
+        <StackPanel.Background>
+            <ImageBrush ImageSource="billede\frontpage.png" Stretch="UniformToFill">
+            </ImageBrush>
+        </StackPanel.Background>
+
+    </StackPanel>
+</Window>

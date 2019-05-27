@@ -1,0 +1,81 @@
+﻿<Window x:Class="test.opretbruger"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test"
+        xmlns:opret="clr-namespace:test.Primary_funkions"
+        mc:Ignorable="d"
+        Title="opretbruger" Height="600" Width="800"
+        ResizeMode="NoResize"
+        >
+    <!--<Window.DataContext>
+        <opret:DOOPRET x:Name="vmOpretter" />
+    </Window.DataContext>-->
+
+    <StackPanel Margin="10">
+        <Label Target="{Binding ElementName=txtid}" Height="30" Margin="20,20,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Name" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtnavn" Text="{Binding Ditfuldenavn,Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}"
+                 Height="24" Margin="20,0,450.6,0"/>
+        <Label Target="{Binding ElementName=txtalder}" Height="27" Margin="20,0,694.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Alder"/>
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtalder" Text="{Binding Alder,Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}"
+                 Height="23" Margin="20,0,670.6,0" />
+        <Label Margin="20,0">vælg køn</Label>
+        <ComboBox x:Name="txtsex" Margin="20,0,670.6,0">
+            <ComboBoxItem>
+                K
+            </ComboBoxItem>
+            <ComboBoxItem>
+                M
+            </ComboBoxItem>
+            <ComboBoxItem>
+                I
+            </ComboBoxItem>
+        </ComboBox>
+        <Label Target="{Binding ElementName=txtby}" Height="30" Margin="20,0,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_By" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtby"  Text="{Binding By,Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}"
+                 Height="23" Margin="20,0,450.6,0"/>
+        <Label Target="{Binding ElementName=txtommig}" 
+               Height="30" Margin="20,0,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Om dig" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtommig" Text="{Binding Hvemerjeg,Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}"
+                 Height="23" Margin="20,0,148.6,0"/>
+        <Label Target="{Binding ElementName=txtinteresser}" Height="30" Margin="20,0,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Interesser" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtinter" Text="{Binding Interesser,Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}"
+                 Height="24" Margin="20,0,450.6,0"/>
+        <Label Target="{Binding ElementName=txtsoger}" Height="30" Margin="20,0,622,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Avatar filepath" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtAvatar" IsReadOnly="True" Height="23" Margin="20,0,450.6,0"/>
+
+        <Button Content="Upload Locally Stored Image" Click="UploadLocallyStoredImage" Margin="20,20,567.6,0" Height="40"/>
+        <Button Margin="50,20,659,0" Height="32" Content="Gem" Click="gembruger" RenderTransformOrigin="-0.241,0.426"/>
+        <Image x:Name="ImgAvatar" Height="133" Width="Auto" Margin="337,0,293.6,0"/>
+        <StackPanel.Background>
+            <ImageBrush ImageSource="billede\frontpage.png" Stretch="UniformToFill">
+            </ImageBrush>
+        </StackPanel.Background>
+
+    </StackPanel>
+</Window>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test"
+        xmlns:pfunc="clr-namespace:test.Primary_funkions"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600" 
+        ResizeMode="NoResize"
+        >
+    <Window.DataContext>
+        <pfunc:DOOPRET x:Name="vmOpret" />
+    </Window.DataContext>
+    
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="billede\frontpage.png" Stretch="UniformToFill">
+            </ImageBrush>
+        </Grid.Background>
+        <Button Padding="5" Margin="35,303,334.6,43" BorderThickness="5" Click="opretkontoo">Opret konto</Button>
+        <Button Padding="5" Margin="329,303,53.6,43" BorderThickness="5" Click="Loginuser" RenderTransformOrigin="0.5,0.503">Log ind</Button>
+        <TextBlock FontSize="50" Margin="150,54,148.6,298" TextWrapping="WrapWithOverflow" Foreground="White">Dateme.dk</TextBlock>
+        <TextBox x:Name="txtBrugernavn" Text="{Binding Login,Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}"
+                 HorizontalAlignment="Left" Height="23" Margin="207,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="238"/>
+        <TextBox x:Name="txtPassword" Text="{Binding Adgangskode,Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}"
+                 HorizontalAlignment="Left" Margin="207,227,0,0" VerticalAlignment="Top" Width="238" Height="18"/>
+        <Label Content="Brugernavn:" HorizontalAlignment="Left" Margin="106,177,0,0" VerticalAlignment="Top"/>
+        <Label Content="Adgangskode" HorizontalAlignment="Left" Margin="106,219,0,0" VerticalAlignment="Top"/>
+        
+
+    </Grid>
+</Window>

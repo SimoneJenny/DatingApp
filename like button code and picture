@@ -1,0 +1,8 @@
+
+<Button x:Name="myBtn_DetailsTab_Save" FlowDirection="LeftToRight"  HorizontalAlignment="Left" Margin="835,544,0,0" VerticalAlignment="Top"  Width="143" Height="53" BorderBrush="#FF0F6287" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="B Titr" FontSize="15" FontWeight="Bold" BorderThickness="2" Click="myBtn_DetailsTab_Save_Click">
+    <StackPanel HorizontalAlignment="Stretch" Background="#FF1FB3F5" Cursor="Hand" >
+        <Image HorizontalAlignment="Left"  Source="image/bg/Save.png" Height="36" Width="124" />
+        <TextBlock HorizontalAlignment="Center" Width="84" Height="22" VerticalAlignment="Top" Margin="0,-31,-58,0" Text="ثبت مشتری" />
+    </StackPanel>
+</Button>
+

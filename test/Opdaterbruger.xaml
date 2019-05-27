@@ -1,0 +1,65 @@
+﻿<Window x:Class="test.Opdaterbruger"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test"
+        mc:Ignorable="d"
+        Title="Opdaterbruger" Height="600" Width="800">
+    <StackPanel Margin="10">
+        <Label Target="{Binding ElementName=txtid}" Height="30" Margin="20,20,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Navn" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtFullName" Height="24" Margin="20,0,450.6,0"/>
+        <Label Target="{Binding ElementName=txtalder}" Height="27" Margin="20,0,694.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Alder"/>
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtAge" Height="23" Margin="20,0,670.6,0" />
+        <Label Margin="20,0">vælg køn</Label>
+        <ComboBox x:Name="txtSex" Margin="20,0,670.6,0">
+            <ComboBoxItem>
+                k
+            </ComboBoxItem>
+            <ComboBoxItem>
+                M
+            </ComboBoxItem>
+            <ComboBoxItem>
+                I
+            </ComboBoxItem>
+        </ComboBox>
+        <Label Target="{Binding ElementName=txtby}" Height="30" Margin="20,0,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_By" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtCity" Height="23" Margin="20,0,450.6,0"/>
+        <Label Target="{Binding ElementName=txtommig}" Height="30" Margin="20,0,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Om dig" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtAboutMe" Height="23" Margin="20,0,9.6,0"/>
+        <Label Target="{Binding ElementName=txtinteresser}" Height="30" Margin="20,0,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Interesser" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtlookingFor" Height="24" Margin="20,0,450.6,0"/>
+        <Label Target="{Binding ElementName=txtsoger}" Height="30" Margin="20,0,670.6,0">
+            <StackPanel Orientation="Horizontal">
+                <AccessText Text="_Avatar" />
+            </StackPanel>
+        </Label>
+        <TextBox x:Name ="txtAvatar" Height="23" Margin="20,0,450.6,0"/>
+        <Button Margin="70,30,595.6,0" Height="32" Content="Opdater" Click="updateuser" RenderTransformOrigin="-0.241,0.426"/>
+        <StackPanel.Background>
+            <ImageBrush ImageSource="billede\frontpage.png" Stretch="UniformToFill">
+            </ImageBrush>
+        </StackPanel.Background>
+
+    </StackPanel>
+</Window>
