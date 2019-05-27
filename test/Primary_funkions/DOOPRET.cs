@@ -129,7 +129,7 @@ namespace test.Primary_funkions //pga. mappestruktur
             else
             {
                 // TODO
-                MessageBox.Show("PLACEHOLDER: FUCKED");
+                //MessageBox.Show("PLACEHOLDER: FUCKED");
             }
 
 
