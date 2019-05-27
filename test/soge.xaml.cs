@@ -36,8 +36,7 @@ namespace test
                 using (SqlConnection sqlCon = new SqlConnection(dbconnection.ConnectionDB()))
                 {
                     sqlCon.Open();
-                    //string searchQuery = "SELECT fullName, sex, city, age, aboutMe, lookingFor, userID, avatar FROM userProfile";
-                    string searchQuery = $"SELECT p.fullName,p.sex,p.city,p.aboutMe,lookingFor,p.userID FROM userAccount as a, userProfile as p WHERE a.userID = p.userID and deleted IS NULL AND NOT p.userID ={ currentUserID.ToString()}";
+                    string searchQuery = $"SELECT p.fullName,p.sex,age,p.city,p.aboutMe,lookingFor,p.userID, avatar FROM userAccount as a, userProfile as p WHERE a.userID = p.userID and deleted IS NULL AND NOT p.userID ={ currentUserID.ToString()}";
                     DataTable dt = new DataTable();
                     SqlDataAdapter sda = new SqlDataAdapter(searchQuery, sqlCon);
                     sda.Fill(dt);
@@ -128,6 +127,7 @@ namespace test
                         minAge = 0; maxAge = 100;
                     }
                     // TODO DET ER GRIMT AT KIGGE PÅ TODO
+                    //SELECT p.fullName,p.sex,p.city,p.aboutMe,lookingFor,p.userID, avatar FROM userAccount as a, userProfile as p
                     string searchQuery = $"SELECT fullName, sex, city, age, aboutMe, lookingFor, p.userID, avatar From userProfile as p, userAccount as a WHERE age BETWEEN {minAge} AND {maxAge}"
                         + $"AND sex LIKE '%{txtSex.Text.Trim()}%' AND NOT p.userID={currentUserID.ToString()} AND a.userID=p.userID AND deleted IS NULL";
 

@@ -20,7 +20,8 @@
         </Label>
         <TextBox x:Name ="txtAge" Height="23" Margin="20,0,670.6,0" />
         <Label Margin="20,0">vælg køn</Label>
-        <ComboBox x:Name="txtSex" Margin="20,0,670.6,0">
+        <ComboBox x:Name="txtSex" Margin="20,0,670.6,0"
+                  >
             <ComboBoxItem>
                 k
             </ComboBoxItem>

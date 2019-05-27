@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:test"
         xmlns:opret="clr-namespace:test.Primary_funkions"
         mc:Ignorable="d"
-        Title="opretbruger" Height="600" Width="800"
+        Title="opretbruger" Height="800" Width="800"
         ResizeMode="NoResize"
         >
     <!--<Window.DataContext>
@@ -68,10 +68,9 @@
             </StackPanel>
         </Label>
         <TextBox x:Name ="txtAvatar" IsReadOnly="True" Height="23" Margin="20,0,450.6,0"/>
-
+        <Image x:Name="ImgAvatar" Height="100" Width="Auto" Margin="50,10,567.6,0" RenderTransformOrigin="0.509,-1.437"/>
         <Button Content="Upload Locally Stored Image" Click="UploadLocallyStoredImage" Margin="20,20,567.6,0" Height="40"/>
         <Button Margin="50,20,659,0" Height="32" Content="Gem" Click="gembruger" RenderTransformOrigin="-0.241,0.426"/>
-        <Image x:Name="ImgAvatar" Height="133" Width="Auto" Margin="337,0,293.6,0"/>
         <StackPanel.Background>
             <ImageBrush ImageSource="billede\frontpage.png" Stretch="UniformToFill">
             </ImageBrush>

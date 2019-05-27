@@ -14,13 +14,13 @@
                 <AccessText Text="_Password"/>
             </StackPanel>
         </Label>
-        <TextBox x:Name ="txtemail" Height="32" Margin="20,0,162.6,0" />
+        <TextBox x:Name ="txtpassword" Height="32" Margin="20,0,162.6,0" />
         <Label Height="39" Margin="20,10,694.6,0">
             <StackPanel Orientation="Horizontal">
                 <AccessText Text="_Email"/>
             </StackPanel>
         </Label>
-        <TextBox x:Name ="txtpassword" Height="32" Margin="20,0,162.6,0" />
+        <TextBox x:Name ="txtemail" Height="32" Margin="20,0,162.6,0" />
         <Button Margin="216,50,369.6,50" Height="61" Content="slet" Click="slet"/>
         <StackPanel.Background>
             <ImageBrush ImageSource="billede\frontpage.png" Stretch="UniformToFill">
