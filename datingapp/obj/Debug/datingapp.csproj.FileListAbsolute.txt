@@ -1,0 +1,14 @@
+C:\Users\tec\source\repos\datingapp\datingapp\obj\Debug\datingapp.csprojAssemblyReference.cache
+C:\Users\tec\source\repos\datingapp\datingapp\obj\Debug\datingapp.csproj.CoreCompileInputs.cache
+C:\Users\tec\source\repos\datingapp\datingapp\bin\Debug\datingapp.exe.config
+C:\Users\tec\source\repos\datingapp\datingapp\bin\Debug\datingapp.exe
+C:\Users\tec\source\repos\datingapp\datingapp\bin\Debug\datingapp.pdb
+C:\Users\tec\source\repos\datingapp\datingapp\obj\Debug\datingapp.exe
+C:\Users\tec\source\repos\datingapp\datingapp\obj\Debug\datingapp.pdb
+D:\datingapp\datingapp\bin\Debug\datingapp.exe.config
+D:\datingapp\datingapp\bin\Debug\datingapp.exe
+D:\datingapp\datingapp\bin\Debug\datingapp.pdb
+D:\datingapp\datingapp\obj\Debug\datingapp.csprojAssemblyReference.cache
+D:\datingapp\datingapp\obj\Debug\datingapp.csproj.CoreCompileInputs.cache
+D:\datingapp\datingapp\obj\Debug\datingapp.exe
+D:\datingapp\datingapp\obj\Debug\datingapp.pdb

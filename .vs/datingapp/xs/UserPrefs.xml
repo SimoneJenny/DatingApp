@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{158E8133-B2A8-4918-8FDC-F1318F245C99}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="datingapp/search/COSOE.cs">
+    <Files>
+      <File FileName="datingapp/opretogslet/COopretfunktion.cs" Line="16" Column="33" />
+      <File FileName="datingapp/Databaseconnection.cs" Line="1" Column="1" />
+      <File FileName="datingapp/Menu.cs" Line="29" Column="49" />
+      <File FileName="datingapp/opretogslet/DOfunktioner.cs" Line="1" Column="1" />
+      <File FileName="datingapp/Like/Like.cs" Line="43" Column="27" />
+      <File FileName="datingapp/search/COSOE.cs" Line="24" Column="24" />
+      <File FileName="datingapp/log/COlogin.cs" Line="1" Column="1" />
+      <File FileName="datingapp/log/loginclass.cs" Line="1" Column="1" />
+      <File FileName="datingapp/opretogslet/COdeltefunktion.cs" Line="58" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="datingapp" expanded="True">
+            <Node name="datingapp" expanded="True">
+              <Node name="Like" expanded="True" />
+              <Node name="log" expanded="True" />
+              <Node name="opretogslet" expanded="True" />
+              <Node name="search" expanded="True">
+                <Node name="COSOE.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.datingapp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
