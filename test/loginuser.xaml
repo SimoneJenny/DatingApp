@@ -13,11 +13,11 @@
         <Button Margin="24,121,620.6,256" Click="slet">Slet bruger/konto</Button>
         <Button Margin="24,209,620.6,168" Click="soge">Søg på medlemmer</Button>
         <Button Margin="24,297,620.6,80" Click="matches" RenderTransformOrigin="0.501,0.5">Se dine Matchs</Button>
-        <Label x:Name="txtUsername"  Content="{Binding username}" HorizontalAlignment="Left" Margin="251,39,0,0" VerticalAlignment="Top" Width="125"/>
-        <Label x:Name="txtFullName" Content="{Binding fullName}" HorizontalAlignment="Left" Margin="251,82,0,0" VerticalAlignment="Top"/>
-        <RichTextBox x:Name="txtAboutMe" IsReadOnly="True" HorizontalAlignment="Left" Height="209" Margin="251,131,0,0" VerticalAlignment="Top" Width="217">
+        <Label x:Name="txtUsername"  Content="{Binding username}" HorizontalAlignment="Left" Margin="300,39,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label x:Name="txtFullName" Content="{Binding fullName}" HorizontalAlignment="Left" Margin="300,82,0,0" VerticalAlignment="Top"/>
+        <RichTextBox x:Name="txtAboutMe" IsReadOnly="True" HorizontalAlignment="Left" Height="209" Margin="300,131,0,0" VerticalAlignment="Top" Width="217">
         </RichTextBox>
-        <Image x:Name="imgAvatar" HorizontalAlignment="Left" Height="175" Width="175" Margin="473,10,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="imgAvatar" HorizontalAlignment="Left" Height="175" Width="175" Margin="600,10,0,0" VerticalAlignment="Top"/>
         <!--<TextBlock HorizontalAlignment="Left" Margin="550,270,0,0" TextWrapping="Wrap"
                    x:Name="testName"
                    Text="{Binding username}" VerticalAlignment="Top"
